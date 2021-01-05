@@ -1,0 +1,19 @@
+﻿<Window x:Class="DataAccess_insert.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DataAccess_insert"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="409.01" Width="759.01">
+    <Grid>
+        <Button x:Name="add" Content="add" HorizontalAlignment="Left" Height="57" Margin="274,210,0,0" VerticalAlignment="Top" Width="200" Click="add_Click"/>
+        <TextBox x:Name="txtBName" HorizontalAlignment="Left" Height="31" Margin="246,135,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="264"/>
+        <Button x:Name="show" Content="show all" HorizontalAlignment="Left" Height="48" Margin="274,302,0,0" VerticalAlignment="Top" Width="200" Click="show_Click"/>
+        <TextBox x:Name="txtbUId" HorizontalAlignment="Left" Height="31" Margin="246,86,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="264"/>
+        <TextBlock HorizontalAlignment="Left" Margin="246,68,0,0" TextWrapping="Wrap" Text="Number ID" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="246,119,0,0" TextWrapping="Wrap" Text="Name" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="93,10,0,0" TextWrapping="Wrap" Text="SQLite Testing" VerticalAlignment="Top" FontSize="24"/>
+
+    </Grid>
+</Window>
